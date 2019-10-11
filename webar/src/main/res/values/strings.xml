@@ -1,0 +1,9 @@
+<resources>
+    <string name="quit_current_activity">退出</string>
+    <string name="go_grant">立即授予</string>
+    <string name="go_setting">去设置</string>
+    <string name="can_not_open_camera">当前APP没有相机权限，无法打开摄像头。</string>
+    <string name="not_support">Android版本低于5.0，不支持使用WebAR。</string>
+    <string name="request_permission">WebAR功能需要打开摄像头，请授予相机权限</string>
+    <string name="go_to_setting">WebAR功能需要打开摄像头，请转到系统设置中授予相机权限</string>
+</resources>

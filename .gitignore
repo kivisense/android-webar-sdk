@@ -12,3 +12,4 @@
 .idea/libraries
 .idea/caches
 *.keystore
+publish.sh

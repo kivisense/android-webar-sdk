@@ -30,3 +30,26 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+// 用来发布module至JCenter
+apply plugin: 'com.novoda.bintray-release'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.9.1'
+    }
+}
+
+publish {
+    userOrg = 'kivi'
+    repoName = 'WebARSDK'
+    groupId = 'com.kivicube'
+    artifactId = 'webar'
+    publishVersion = '1.0.0'
+    desc = 'A lightweight augmented reality software development kit'
+    website = 'https://github.com/kivisense/android-webar-sdk'
+    licences = ['MIT']
+}

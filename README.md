@@ -1,12 +1,12 @@
 WebAR SDK
 =========
 
-## 使用方法
+## 安装集成
 
-1. 可直接导入webar模块到自身的工程中，使用AS中File->New->Import Module即可。
-2. 直接使用JCenter中的依赖包（马上到来）。
+1. 可下载SDK包后，导入webar模块到自身的工程中，使用AS中File->New->Import Module即可。
+2. 也可使用JCenter的依赖包，dependencies中添加`implementation 'com.kivicube:webar:1.0.0'`即可。
 
-详细集成方式可查看`app/src/main/java/com/kivicube/webar/sample/WebARSampleActivity.java`代码。
+详细集成可查看`app/src/main/java/com/kivicube/webar/sample/WebARSampleActivity.java`代码中的实现。
 
 ## 快速体验
 

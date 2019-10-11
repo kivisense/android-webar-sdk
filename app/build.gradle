@@ -24,7 +24,11 @@ android {
 }
 
 dependencies {
-    implementation project(':webar')
+    // 可以导入模块使用
+    // implementation project(':webar')
+
+    // 也可以直接依赖，不用下载SDK。
+    implementation 'com.kivicube:webar:1.0.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation 'com.android.support:support-v4:28.0.0'

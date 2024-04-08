@@ -7,13 +7,3 @@ WebAR SDK
 2. 也可使用JCenter的依赖包，dependencies中添加`implementation 'com.kivicube:webar:1.0.0'`即可。
 
 详细集成可查看`app/src/main/java/com/kivicube/webar/sample/WebARSampleActivity.java`代码中的实现。
-
-## 快速体验
-
-可扫描下方二维码安装Sample APP
-
-![安装二维码](./qrcode.png)
-
-打开自带的场景链接后，扫描下方的识别图
-
-![识别图](./marker.jpg)

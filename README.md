@@ -1,3 +1,5 @@
+**注意：当前SDK已停止维护，可自行使用WebView加载Kivicube场景链接即可。**
+
 WebAR SDK
 =========
 

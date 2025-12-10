@@ -1,4 +1,4 @@
-**注意：当前SDK已停止维护，可自行使用WebView加载Kivicube场景链接即可。**
+**注意：当前SDK已停止维护，可自行使用WebView加载Kivicube场景链接即可，参考：[https://github.com/kivisense/kivicube-android-sample](https://github.com/kivisense/kivicube-android-sample)**
 
 WebAR SDK
 =========
